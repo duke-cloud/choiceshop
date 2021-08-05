@@ -1,0 +1,24 @@
+
+<! DOCTYPE html>
+<html>
+<meta charset="utf-8">
+<head>
+<title>
+  </title>
+  <script>
+  function substitute(){
+   var myTitle =  document.getElementById('title');
+   if(myTitle.length ==0){
+     prompt("please fill the entries correctly")
+   }
+   var myText = document.getElementById('text');
+   myText.innerHTML = myTitle;
+  }
+  </script>
+</head>
+<body>
+<h1 id="main">Main Aim</h1>
+<input type ="text" id="text" placeholder="enter values here">
+<input type="Submit" value="click me" onclick="substitute()">
+</body>
+</html>

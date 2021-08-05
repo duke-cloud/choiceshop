@@ -1,0 +1,6 @@
+{
+  "require": {
+    "stripe/stripe-php": "3.*"
+    "mabiola/paystack-php-lib" : "~0.1"
+  }
+}
